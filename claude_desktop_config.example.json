@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "crm-copilot": {
+      "command": "python",
+      "args": ["-m", "copilot.mcp_server"],
+      "env": { "COPILOT_DB": "/ABS/PATH/mcp-crm-copilot/data/crm.db", "PYTHONPATH": "/ABS/PATH/mcp-crm-copilot/src" }
+    }
+  }
+}

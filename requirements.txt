@@ -1,0 +1,8 @@
+# core (tests + offline demo use only the stdlib + pytest)
+pytest>=8.0
+# MCP server
+mcp>=1.2
+# optional LLM classifiers (only needed for `triage --llm ...`)
+langchain-core>=0.3
+langchain-openai>=0.2
+langchain-google-genai>=2.0
